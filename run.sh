@@ -1,0 +1,1 @@
+docker exec -it name-node npm run node

@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"name-tinder.kznamemodels"},{"v":{"$numberInt":"2"},"unique":true,"key":{"name":{"$numberInt":"1"}},"name":"name_1","ns":"name-tinder.kznamemodels","background":true}],"uuid":"7398ed0aa92c440291b699565c2b43ee"}

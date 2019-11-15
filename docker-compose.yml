@@ -1,0 +1,30 @@
+version: "3.7"
+services:
+  nodeapp:
+    build:
+      context: ./name-tinder-backend
+      dockerfile: Dockerfile
+    container_name: name-node
+    volumes:
+      - ./name-tinder-backend:/nodeapp
+    depends_on:
+      - database
+    restart: on-failure
+    networks:
+      - app
+    ports:
+      - 8793:8793
+    command: ["npm", "run", "node"] #启动时后的命令
+
+  database:
+    image: mongo
+    # build:
+    #   context: ./mongodb
+    container_name: name-mongo
+    ports:
+      - 27017:27017
+    networks:
+      - app
+
+networks:
+  app:
