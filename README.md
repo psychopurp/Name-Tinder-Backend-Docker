@@ -10,5 +10,8 @@
 
 ### git submodule update --init --recursive 来 clone 子仓库
 
-首选运行 docker-compose up -d
-之后运行 init.sh
+运行 docker-compose up -d 来启动数据库和后台服务
+
+- 之后运行 init.sh 来添加数据库数据
+
+- 如果 nodejs 后台服务没有起来，那就再运行 run.sh
