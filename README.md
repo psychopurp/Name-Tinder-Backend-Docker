@@ -1,4 +1,4 @@
-# Name-Tinder_Backend-Docker
+# Name-Tinder-Backend-Docker
 
 ## 克隆父仓库
 
