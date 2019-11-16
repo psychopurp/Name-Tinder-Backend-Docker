@@ -4,7 +4,7 @@
 
 ### git submodule init // 初始化本地配置文件
 
-### git submodule update // 检出主仓库列出的 commit
+### git submodule update // 检出主仓库列出的 commit 以及克隆子仓库
 
 ### 或者组合命令
 
