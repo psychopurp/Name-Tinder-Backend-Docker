@@ -1,0 +1,3 @@
+[submodule "name-tinder-backend"]
+	path = name-tinder-backend
+	url = git@github.com:psychopurp/name-tinder-backend.git
