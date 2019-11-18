@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile
     container_name: name-node
     volumes:
-      - ./name-tinder-backend:/nodeapp
+      - ./name-tinder-backend:/app
     depends_on:
       - database
     restart: on-failure
