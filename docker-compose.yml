@@ -12,12 +12,12 @@ services:
     environment:
       - DB_HOST=name-mongo
       - DOCKER=true
-      - DB_PORT=27020
+      - DB_PORT=27017
       - DB_NAME=name-tinder
     networks:
       - app
     ports:
-      - 8793:8793
+      - 8880:8793
     command: ["npm", "run", "docker"] #启动时后的命令
 
   database:
@@ -25,11 +25,11 @@ services:
     build:
       context: ./mongodb
     container_name: name-mongo
-    volumes:
-      - ./mongodb/data/db:/data/db
+    # volumes:
+    #   - ./mongodb/data/db:/data/db
     restart: always
     ports:
-      - 27017:27017
+      - 27020:27017
     networks:
       - app
 
