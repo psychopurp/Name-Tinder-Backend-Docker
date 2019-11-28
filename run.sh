@@ -1,1 +1,1 @@
-docker exec -it name-node npm run node
+docker exec -it name-node npm run docker

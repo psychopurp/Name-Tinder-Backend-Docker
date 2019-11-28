@@ -14,6 +14,6 @@
 
 - 之后运行 init.sh 来添加数据库数据
 
-- 如果 nodejs 后台服务没有起来，那就再运行 run.sh
+- 如果 nodejs 后台服务没有起来，那就再运行 docker-compose up -d
 
 - nodejs 服务运行在 127.0.0.1:8793 端口
