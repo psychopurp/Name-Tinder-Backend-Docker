@@ -25,8 +25,8 @@ services:
     build:
       context: ./mongodb
     container_name: name-mongo
-    volumes:
-      - ./mongodb/data/db:/data/db
+    # volumes:
+    # - ./mongodb/data/db:/data/db
     restart: always
     ports:
       - 27020:27017
