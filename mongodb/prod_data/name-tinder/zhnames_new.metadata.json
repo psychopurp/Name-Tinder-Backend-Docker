@@ -1,1 +1,0 @@
-{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"name-tinder.zhnames_new"}],"uuid":"b14c8aeca7ee4c29a81873421208f2bb"}
