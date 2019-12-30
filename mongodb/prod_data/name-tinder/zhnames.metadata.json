@@ -1,1 +1,1 @@
-{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"name-tinder.zhnames"}],"uuid":"103fdb786a3e42fdb79e71c2f242147b"}
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"name-tinder.zhnames"}],"uuid":"f60341e5042e475e8d68d7f8191b61e1"}
